@@ -20,6 +20,7 @@ var main = function () {
         if ($(".tag-input input").val() !== ""){
             $("main .photos").empty();
             displayImages($(".tag-input input").val());
+            $(".tag-input input").val("");
         }
     });
 
